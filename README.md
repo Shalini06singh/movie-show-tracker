@@ -2,6 +2,19 @@
 
 A user-friendly React application for tracking and exploring movies and TV shows. The app offers a seamless experience to browse, categorize, and manage personal watchlists based on user preferences.
 
+
+![Screenshot 2024-11-19 200721](https://github.com/user-attachments/assets/89acb690-1ebb-4cbe-8122-3e79001be034)
+
+
+
+
+![Screenshot 2024-11-19 200736](https://github.com/user-attachments/assets/42967c6b-bcb0-4b64-8ed7-0324fbf4018e)
+
+
+
+
+![Screenshot 2024-11-19 200750](https://github.com/user-attachments/assets/fe9e97eb-f6b2-494d-826d-46f9b26c1d4d)
+
 ## Tech Stack
 
 1.Frontend: React, JavaScript, HTML5, CSS3
