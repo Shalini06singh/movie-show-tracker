@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+## Movie and Show Tracker App 🎥
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A user-friendly React application for tracking and exploring movies and TV shows. The app offers a seamless experience to browse, categorize, and manage personal watchlists based on user preferences.
 
-## Available Scripts
+## Tech Stack
 
-In the project directory, you can run:
+1.Frontend: React, JavaScript, HTML5, CSS3
 
-### `npm start`
+2.State Management: React Context API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3.Styling: CSS Modules or Styled Components
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4.API: Fetch data from a movie/show database (TMDB API)
 
-### `npm test`
+5.Routing: React Router for navigation between screens
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🏠 HomeScreen
+Display Lists:
 
-### `npm run build`
+Showcases categorized lists of movies and TV shows:
+Popular
+Upcoming
+Top Rated
+Each category dynamically fetches and displays the latest content from the database or API.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👤 ProfileMenu
+A profile icon on the home screen opens the Profile Screen.
+Profile Screen provides:
+Easy access to user information and settings.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Functionality
 
-### `npm run eject`
+DisplayLists Component
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Displays categorized lists of movies/shows (Popular, Upcoming, Top Rated).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Implementation:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Fetch Data: Use a public API like The Movie Database (TMDB).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+API Endpoints:
 
-## Learn More
+Popular: ```/movie/popular```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Upcoming: ```/movie/upcoming```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Top Rated: ```/movie/top_rated```
+## Installation
 
-### Code Splitting
+Cloning the Repository
+```
+git clone https://github.com/your-username/movie-show-tracker.git
+```
+Navigate to the project directory:
+```
+cd movie-show-tracker
+```
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+npm install  
+```
+Start the development server:
+```
+npm start  
+```
+Open your browser and navigate to:
+```
+http://localhost:3000  
+```
+## 🔗 Links
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shalini06/)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! Please fork the repository and submit pull requests with your enhancements.
