@@ -3,6 +3,9 @@
 A user-friendly React application for tracking and exploring movies and TV shows. The app offers a seamless experience to browse, categorize, and manage personal watchlists based on user preferences.
 
 
+Live Link:  https://movie-show-tracker.vercel.app/
+
+
 ![Screenshot 2024-11-19 200721](https://github.com/user-attachments/assets/89acb690-1ebb-4cbe-8122-3e79001be034)
 
 
